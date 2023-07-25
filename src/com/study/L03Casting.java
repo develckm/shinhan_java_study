@@ -34,6 +34,8 @@ public class L03Casting {
         Object o=new C(); //자료형 데이터는 부모의 타입의 변수로 참조될 수 있다.
         //자료형을 부모의 타입으로 참조하는 이유 : 변수가 많은 변수를 참조해서 편하게 코딩하려고!!
         System.out.println(o);
+        System.out.println(o instanceof A);
+
         C c=(C)o;
         System.out.println(c.c);
         //A a=new A(); //추상클래스는 객체가 될 수 없다.

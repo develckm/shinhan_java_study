@@ -5,6 +5,7 @@ import java.util.List;
 
 public class L01Iterator {
     public static void main(String[] args) {
+        WindowHandler w=new WindowHandler();
         List list=new ArrayList(); //  {10,20 ,30, 10.3 }
         list.add(10);
         list.add(20);
